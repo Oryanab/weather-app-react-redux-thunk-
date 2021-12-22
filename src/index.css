@@ -13,24 +13,27 @@ code {
 }
 
 .main-div {
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
   text-align: center;
-  width: 20%;
-  border: 3px solid black;
-  padding: 10px;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  width: 70vw;
+  border: 0.5vh solid black;
+  padding: 2vh;
   border-radius: 1vh;
 }
 
 .product-card {
+  text-align: center;
   display: flex;
   justify-content: space-between;
-  padding: 30px;
-  height: 30px;
+  padding: 10vh;
+  height: 10vh;
 }
 
 .mini-div {
+  text-align: center;
   display: flex;
   justify-content: center;
   margin-top: -1vh;
