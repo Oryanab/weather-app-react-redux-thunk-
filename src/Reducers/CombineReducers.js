@@ -1,10 +1,11 @@
 import { combineReducers } from "redux";
-import loggedReducer from "./islogged";
+
 import counterReducer from "./couter";
+import weatherReducer from "./weatherReducer";
 
 const AppReducers = combineReducers({
-  logged: loggedReducer,
   counter: counterReducer,
+  weatherReducer: weatherReducer,
 });
 
 export default AppReducers;
