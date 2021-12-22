@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
 
-import counterReducer from "./couter";
+import cityReducer from "./cityReducer";
 import weatherReducer from "./weatherReducer";
 
 const AppReducers = combineReducers({
-  counter: counterReducer,
+  city: cityReducer,
   weatherReducer: weatherReducer,
 });
 
