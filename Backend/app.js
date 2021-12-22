@@ -5,10 +5,10 @@ const PORT = process.env.PORT || 8080;
 
 const app = express();
 
-app.use(express.static("../build"));
+app.use(express.static("build"));
 app.get("/", function (req, res) {
   // serve main path as static file
-  res.sendFile(path.resolve("../build/index.html"));
+  res.sendFile(path.resolve("../build/index"));
 });
 
 app.listen(PORT, () =>
